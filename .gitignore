@@ -31,3 +31,10 @@ reports/*.txt
 .DS_Store
 .vscode/
 .idea/
+
+# Keep project directories in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!output_images/.gitkeep
+!reports/.gitkeep
